@@ -1,0 +1,140 @@
+{
+    "isCompact": true,
+    "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    "mobileBottomRow": 10,
+    "widgetName": "MenuButton1",
+    "configureMenuItems": {
+        "label": "Configure menu items",
+        "id": "config",
+        "config": {
+            "id": "config",
+            "label": "Menu Item",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "dynamicPropertyPathList": [
+        {"key": "iconName"},
+        {"key": "menuVariant"},
+        {"key": "isVisible"}
+    ],
+    "displayName": "Menu button",
+    "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
+    "topRow": 6,
+    "bottomRow": 10,
+    "parentRowSpace": 10,
+    "type": "MENU_BUTTON_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 20,
+    "topRowBeforeCollapse": 6,
+    "animateLoading": true,
+    "parentColumnSpace": 20.109375,
+    "dynamicTriggerPathList": [{"key": "menuItems.menuItem2.onClick"}],
+    "leftColumn": 4,
+    "dynamicBindingPathList": [{"key": "isVisible"}],
+    "isDisabled": false,
+    "sourceData": [],
+    "key": "93figlneee",
+    "isDeprecated": false,
+    "rightColumn": 20,
+    "iconName": "zoom-to-fit",
+    "menuVariant": "SECONDARY",
+    "widgetId": "ho941ng1py",
+    "menuItems": {
+        "menuItemll4r50by7m": {
+            "widgetId": "n3qkej997k",
+            "index": 4,
+            "id": "menuItemll4r50by7m",
+            "label": "Table widget",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "menuItem1": {
+            "widgetId": "",
+            "index": 0,
+            "label": "Audio widget",
+            "id": "menuItem1",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "menuItemwgqnxseoar": {
+            "widgetId": "sta25gfrpn",
+            "index": 8,
+            "id": "menuItemwgqnxseoar",
+            "label": "JSON form",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "menuItem2": {
+            "backgroundColor": "#f3e8ff",
+            "onClick": "{{showAlert('South indian meal, North indian meal', '');\nJSObject1.myFun1();}}",
+            "iconName": "airplane",
+            "widgetId": "",
+            "iconColor": "#eab308",
+            "index": 1,
+            "iconAlign": "left",
+            "label": "Video Widget",
+            "id": "menuItem2",
+            "isVisible": true,
+            "isDisabled": false,
+            "textColor": "#22c55e"
+        },
+        "menuItem02x9sgsl9w": {
+            "widgetId": "d2d0d7uibn",
+            "index": 3,
+            "id": "menuItem02x9sgsl9w",
+            "label": "Input widget",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "menuItem8gqfj62n41": {
+            "widgetId": "mjorpqhyj0",
+            "index": 5,
+            "id": "menuItem8gqfj62n41",
+            "label": "DatePicker",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "menuItemx85r9ugu6d": {
+            "widgetId": "qjjty9i7wd",
+            "index": 2,
+            "id": "menuItemx85r9ugu6d",
+            "label": "Text widget",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "menuItemrumowl808l": {
+            "widgetId": "u459om5a4a",
+            "index": 6,
+            "id": "menuItemrumowl808l",
+            "label": "FilePicker",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "menuItem1kjyhp3498": {
+            "widgetId": "9pynuocc0d",
+            "index": 7,
+            "id": "menuItem1kjyhp3498",
+            "label": "Button",
+            "isDisabled": false,
+            "isVisible": true
+        }
+    },
+    "bottomRowBeforeCollapse": 10,
+    "isVisible": "{{Select1.selectedOptionValue===\"Show\"}}",
+    "label": "Appsmith Widgets",
+    "version": 1,
+    "parentId": "0",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 6,
+    "originalTopRow": 6,
+    "borderRadius": "1.5rem",
+    "mobileLeftColumn": 4,
+    "menuItemsSource": "STATIC",
+    "menuColor": "#cf4d10",
+    "originalBottomRow": 10,
+    "iconAlign": "left",
+    "placement": "CENTER"
+}
