@@ -1,16 +1,12 @@
 {
   "pages": [
     {
-      "id": "page 1 for test",
-      "isDefault": true
-    },
-    {
-      "id": "page 455",
+      "id": "page 1 for test esur jsehfj hs",
       "isDefault": false
     },
     {
       "id": "Car showroom2",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Business dashboard2",
@@ -50,18 +46,6 @@
     },
     {
       "id": "Page2",
-      "isDefault": false
-    },
-    {
-      "id": "page 1 for test Copy",
-      "isDefault": false
-    },
-    {
-      "id": "page 1 for test Copy1",
-      "isDefault": false
-    },
-    {
-      "id": "page 1 for test Copy2",
       "isDefault": false
     }
   ],
