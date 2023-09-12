@@ -1,17 +1,13 @@
 {
     "zoomLevel": 50,
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
     "mobileBottomRow": 98,
-    "widgetName": "Map1",
-    "defaultMarkers": [{
-        "title": "Location1",
-        "lat": 25.122,
-        "long": 50.132
-    }],
+    "widgetName": "maps",
+    "defaultMarkers": "[\n  {\n    \"lat\": 12.2958,\n    \"long\": 76.6394,\n    \"title\": \"Home\"\n  }\n]",
     "displayName": "Map",
     "iconSVG": "/static/media/icon.5d50414980b866c69864af79042fa1f9.svg",
-    "topRow": 58,
-    "bottomRow": 98,
+    "topRow": 42,
+    "bottomRow": 71,
     "parentRowSpace": 10,
     "type": "MAP_WIDGET",
     "hideCard": false,
@@ -19,22 +15,21 @@
     "animateLoading": true,
     "allowZoom": true,
     "parentColumnSpace": 30.078125,
-    "leftColumn": 4,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
+    "dynamicTriggerPathList": [],
+    "leftColumn": 37,
+    "dynamicBindingPathList": [],
     "enablePickLocation": true,
     "mapCenter": {
-        "lat": 25.122,
-        "long": 50.132
+        "title": "Bengaluru, Karnataka, India",
+        "lat": 12.9715987,
+        "long": 77.5945627
     },
     "isClickedMarkerCentered": true,
     "isDisabled": false,
     "enableSearch": true,
     "key": "uxkaxzwunp",
     "isDeprecated": false,
-    "rightColumn": 28,
+    "rightColumn": 61,
     "widgetId": "n3za45hu92",
     "minWidth": 450,
     "isVisible": true,
@@ -45,8 +40,8 @@
     "isLoading": false,
     "mobileTopRow": 58,
     "responsiveBehavior": "fill",
-    "originalTopRow": 58,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalTopRow": 42,
+    "borderRadius": "1.5rem",
     "mobileLeftColumn": 4,
-    "originalBottomRow": 98
+    "originalBottomRow": 71
 }

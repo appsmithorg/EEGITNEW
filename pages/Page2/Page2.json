@@ -1,46 +1,33 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Page2",
+    "slug": "page2",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 710,
+          "bottomRow": 1180,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 117,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 86,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 1190,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Page1_Query1",
-              "name": "Query1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
+        "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Page2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +37,5 @@
     "policies": []
   },
   "deleted": false,
-  "gitSyncId": "64fede5f683c6b0618a7705a_64fede5f683c6b0618a7705d"
+  "gitSyncId": "64feeb27ee3ee05f6abb0f73_64ffe1438b7a9d1636506443"
 }
