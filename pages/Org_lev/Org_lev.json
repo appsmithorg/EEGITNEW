@@ -1,63 +1,57 @@
 {
   "unpublishedPage": {
-    "name": "OAuth",
-    "slug": "oauth",
+    "name": "Org_lev",
+    "slug": "org-lev",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1174,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 490,
+          "bottomRow": 870,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 86,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 890,
           "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "OAuth_Api2",
-              "name": "Api2",
+              "id": "Org_lev_SelectQuery",
+              "name": "SelectQuery",
               "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "OAuth_Query2",
-              "name": "Query2",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
+              "pluginType": "SAAS",
+              "jsonPathKeys": [
+                "data_table.pageSize",
+                "(data_table.pageNo - 1) * data_table.pageSize"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "OAuth",
+        "id": "Org_lev",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": false
+    "policies": []
   },
   "deleted": false,
-  "gitSyncId": "64fede5f683c6b0618a7705a_64fede5f683c6b0618a7705d"
+  "gitSyncId": "64fefe67ee3ee05f6abb11f9_64ff314e2430a84ce9f33735"
 }
