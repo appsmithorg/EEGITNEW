@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "page 1 for test Copy",
+    "slug": "page-1-for-test-copy",
     "layouts": [
       {
         "viewMode": false,
@@ -26,16 +26,18 @@
           "leftColumn": 0
         },
         "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "page 1 for test Copy",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "64fee424683c6b0618a77110_64ff1b22ee3ee05f6abb159b"
+  "gitSyncId": "64fee424683c6b0618a77110_64ffd88bef3e065fedd41f48"
 }

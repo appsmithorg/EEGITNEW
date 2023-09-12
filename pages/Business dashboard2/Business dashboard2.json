@@ -1,0 +1,122 @@
+{
+  "unpublishedPage": {
+    "name": "Business dashboard2",
+    "slug": "business-dashboard2",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1168,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1470,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 69,
+          "minHeight": 640,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Business dashboard2_chartFromTo",
+              "name": "chartFromTo",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.fromDate",
+                "appsmith.store.toDate"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Business dashboard2_select_repair_db",
+              "name": "select_repair_db",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Business dashboard2_select_repair_revenue",
+              "name": "select_repair_revenue",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.fromDate",
+                "appsmith.store.toDate",
+                "statusDropdown.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Business dashboard2_select_showroom_db",
+              "name": "select_showroom_db",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Business dashboard2_avg_feed_repair",
+              "name": "avg_feed_repair",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Business dashboard2_avg_feed_sales",
+              "name": "avg_feed_sales",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Business dashboard2_carsales_revenue",
+              "name": "carsales_revenue",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Business dashboard2_monthly_showroom_revenue",
+              "name": "monthly_showroom_revenue",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "mongoEscapedWidgetNames": [
+          "Table1Copy"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Business dashboard2",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "64fee424683c6b0618a77110_64ff1e01ee3ee05f6abb178b"
+}
