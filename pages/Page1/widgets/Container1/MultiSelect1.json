@@ -1,0 +1,73 @@
+{
+    "boxShadow": "none",
+    "iconSVG": "/static/media/icon.801e0376f5d71c420e7b490da23a44a6.svg",
+    "labelText": "Label",
+    "topRow": 97,
+    "labelWidth": 5,
+    "type": "MULTI_SELECT_WIDGET_V2",
+    "serverSideFiltering": false,
+    "defaultOptionValue": [
+        "GREEN",
+        "RED"
+    ],
+    "animateLoading": true,
+    "leftColumn": 7,
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "borderRadius"}
+    ],
+    "placeholderText": "Select option(s)",
+    "isDisabled": false,
+    "isRequired": false,
+    "dynamicHeight": "FIXED",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "tags": ["Select"],
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileBottomRow": 104,
+    "widgetName": "MultiSelect1",
+    "isFilterable": true,
+    "displayName": "MultiSelect",
+    "searchTags": [
+        "dropdown",
+        "tags"
+    ],
+    "bottomRow": 104,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 27,
+    "parentColumnSpace": 27.415771484375,
+    "labelPosition": "Top",
+    "sourceData": [
+        {
+            "code": "BLUE",
+            "name": "Blue"
+        },
+        {
+            "code": "GREEN",
+            "name": "Green"
+        },
+        {
+            "code": "RED",
+            "name": "Red"
+        }
+    ],
+    "key": "sib9bl76o0",
+    "labelTextSize": "0.875rem",
+    "isDeprecated": false,
+    "rightColumn": 27,
+    "widgetId": "bmxqwniym1",
+    "optionValue": "code",
+    "minWidth": 450,
+    "parentId": "s9qmifz0u1",
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 97,
+    "optionLabel": "name",
+    "responsiveBehavior": "fill",
+    "mobileLeftColumn": 7,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}

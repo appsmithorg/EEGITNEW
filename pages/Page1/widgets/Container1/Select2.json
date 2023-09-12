@@ -1,0 +1,70 @@
+{
+    "boxShadow": "none",
+    "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+    "labelText": "Label",
+    "topRow": 90,
+    "labelWidth": 5,
+    "type": "SELECT_WIDGET",
+    "serverSideFiltering": false,
+    "defaultOptionValue": "GREEN",
+    "animateLoading": true,
+    "leftColumn": 3,
+    "dynamicBindingPathList": [
+        {"key": "accentColor"},
+        {"key": "borderRadius"}
+    ],
+    "placeholderText": "Select option",
+    "isDisabled": false,
+    "isRequired": false,
+    "dynamicHeight": "FIXED",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "tags": [
+        "Suggested",
+        "Select"
+    ],
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileBottomRow": 100,
+    "widgetName": "Select2",
+    "isFilterable": true,
+    "displayName": "Select",
+    "searchTags": ["dropdown"],
+    "bottomRow": 97,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 23,
+    "parentColumnSpace": 27.415771484375,
+    "labelPosition": "Top",
+    "sourceData": [
+        {
+            "code": "BLUE",
+            "name": "Blue"
+        },
+        {
+            "code": "GREEN",
+            "name": "Green"
+        },
+        {
+            "code": "RED",
+            "name": "Red"
+        }
+    ],
+    "key": "3qqx2igdbo",
+    "labelTextSize": "0.875rem",
+    "isDeprecated": false,
+    "rightColumn": 23,
+    "widgetId": "ki2b96oo5h",
+    "optionValue": "code",
+    "minWidth": 450,
+    "parentId": "s9qmifz0u1",
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 93,
+    "optionLabel": "name",
+    "responsiveBehavior": "fill",
+    "mobileLeftColumn": 3,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}
