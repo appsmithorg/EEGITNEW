@@ -15,9 +15,14 @@
     "animateLoading": true,
     "allowZoom": true,
     "parentColumnSpace": 30.078125,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [
+        {"key": "onCreateMarker"},
+        {"key": "onMarkerClick"}
+    ],
     "leftColumn": 37,
     "dynamicBindingPathList": [],
+    "onMarkerClick": "{{showAlert('clicked', 'success');}}",
+    "onCreateMarker": "{{showAlert('created', 'success');}}",
     "enablePickLocation": true,
     "mapCenter": {
         "title": "Bengaluru, Karnataka, India",
@@ -31,6 +36,7 @@
     "isDeprecated": false,
     "rightColumn": 61,
     "widgetId": "n3za45hu92",
+    "enableCreateMarker": true,
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
